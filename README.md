@@ -25,4 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
 # A2INFOSOLUTIONS-frontend
+
+- A2INFOSOLUTIONS is a solution for a consulting web application.
+
+## Tech Stack:
+
+<em>Below are the technologies used:</em>
+
+- Angular
+-
+
+<img src="https://user-images.githubusercontent.com/67070886/168157683-a79e34bc-4742-4d8b-995e-50971555f385.png" width="28px"/> View the initial UI/UX [here](https://www.figma.com/file/v00LivMWb9Uai0JvdIUfMW/Untitled?t=XMcc9xdWoZJa9ZS3-0)
