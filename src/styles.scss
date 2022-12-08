@@ -91,7 +91,7 @@ body {
   background-color: white;
   color: #0d1337;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border: 0.1px solid #0d1337;
+  border: none;
 }
 
 /****          home          *****/
@@ -268,6 +268,13 @@ body {
 }
 
 .home-section-three-box-logo {
+}
+
+.home-section-three-box-logo-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border: red;
 }
 
 .home-section-three-box-title {
@@ -624,7 +631,7 @@ body {
   line-height: 58px;
   /* identical to box height, or 138% */
   text-align: center;
-  color: #262626;
+  color: #0d1337;
   padding: 60px 0px 20px 0px;
 }
 
@@ -684,6 +691,7 @@ body {
   color: #ffffff;
   background: #0d1337;
   margin: auto;
+  border: none;
 }
 
 /****          about          *****/
@@ -848,6 +856,140 @@ body {
       rgba(19, 24, 117, 0.73)
     ),
     url("https://www.constructionleadersclub.com/wp-content/uploads/2019/05/young-people-in-office.jpg");
+}
+
+/****          services          *****/
+
+.services-container {
+  background-color: white;
+  padding: 50px;
+}
+
+.services-title {
+  font-size: 24px;
+  color: #ff6f29;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.services-subtitle {
+  font-size: 18px;
+}
+
+.services-wrapper {
+  margin-top: 30px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-single {
+  display: flex;
+  margin: auto;
+  width: 1200px;
+}
+
+.services-single-text {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-style: normal;
+}
+
+.services-single-text-title {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #0b254b;
+}
+
+.services-single-text-desc {
+  width: 585px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+
+.services-single-img-wrapper {
+  height: fit-content;
+}
+
+.services-single-img {
+  width: 585px;
+  height: 319px;
+  object-fit: contain;
+}
+
+/****          clients          *****/
+
+.clients-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: white;
+}
+
+.clients-text-wrapper {
+}
+
+.clients-title {
+  padding: 50px 0px;
+  height: fit-content;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: #ed820e;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #d16002, 1px 2px 0px #d16002, 1px 3px 0px #d16002,
+    1px 4px 0px #d16002, 1px 5px 0px #d16002, 1px 6px 0px #d16002,
+    1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
+    1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+
+.client-text {
+  position: absolute;
+  padding: 0px 100px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  color: #0b254b;
+}
+
+.clients-wrapper {
+  padding-top: 50px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin-top: 300px;
+}
+
+.clients-wrapper > span {
+  justify-content: center;
+}
+
+.clients-single {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  //align-self: center;
+  display: block;
+  margin: auto;
 }
 
 /****          footer          *****/
